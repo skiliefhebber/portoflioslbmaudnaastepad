@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="titelpodcast">Podcast StuDYING</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wiebenik.html">Over mij</a></li>
+            <li><a href="blok1.html">Blok 1</a></li>
+            <li><a href="blok2.html">Blok 2</a></li>
+            <li><a href="blok3.html">Blok 3</a></li>
+            <li class="current-page active"><a href="podcast.html">Podcast</a> </li>
+        </ul>
+    </nav>
+    <p class="tekstpodcast">
+        Hallooo aankomende studenten, welkom bij ons podcastkanaal “StuDYING”. Wij zijn Louise, Annabel en Maud en vertellen jullie elke week over het studentenleven in Amsterdam. Wij zijn nu zelf studenten aan de HvA en maken dus veel mee in deze studententijd. Willen jullie nou uit de nood geholpen worden vóór het studeren en de allerbeste tips krijgen? Dan zit je bij onze podcast goed!  
+    </p>
+        <button class="buttonafspelen"> <a>Afspelen</a></button>
+            <img class="podcastplaatje" src="img/podcast.jpg" alt="Podcast">
+                <audio id="song">
+                    <source src="Studying eindversie (1).mp3">
+                </audio>
+                    <script src="index.js">
+                        window.addEventListener('click', () =>{
+                            document.getElementById("song").play;
+                        });
+                    </script>
+    <footer class="footerpodcast">
+        <p>Instagram: @maudnaastepad
+        </p>
+        <p>E-Mail: maudnaastepad2006@gmail.com</p>
+    </footer>
+</body>
+</html>
